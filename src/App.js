@@ -1,26 +1,48 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {Provider} from "react-redux";
+import {HashRouter as Router, Route, Switch} from "react-router-dom";
+import axios from "axios";
+import { FETCH_POSTS } from "./actions/index";
+//store
+import store from "./store";
+//layout
+import {Grid, Container} from "semantic-ui-react";
+//components
+import QuestionList from "./components/QuestionList";
+import AddQuestion from "./components/AddQuestion";
+import Sidebar from "./components/Sidebar";
+import EditQuestion from "./components/EditQuestion";
+import Head from "./components/Head";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  componentDidMount() {
+    axios.get("https://huebj.sse.codesandbox.io/posts").then(res => {
+      store.dispatch({ type: FETCH_POSTS, payload: res.data });
+    });
+  }
+  render() {
+    return (
+      <Provider store={store}>
+        <Router>
+          <React.Fragment>
+            <Container>
+              <Head />
+              <Grid columns={2}>
+                <Grid.Row>
+                  <Sidebar />
+                  <Switch>
+                    <Route exact path="/" component={QuestionList} />
+                    <Route exact path="/add" component={AddQuestion} />
+                    <Route exact path="/edit" component={EditQuestion} />
+                  </Switch>
+                </Grid.Row>
+              </Grid>
+            </Container>
+          </React.Fragment>
+        </Router>
+      </Provider>
+    );
+  }
 }
 
 export default App;
