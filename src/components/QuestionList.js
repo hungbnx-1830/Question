@@ -1,13 +1,21 @@
 import React from 'react';
 import {connect} from "react-redux";
 import {Link} from "react-router-dom";
-
+import store from "../store";
+import { UPDATE_QUESTION } from "../actions/index";
 
 import {Grid, Card, Header, Divider, Button, Modal, Icon} from "semantic-ui-react";
 
 
 class QuestionList extends React.Component {
   state = {};
+
+  handleUpdate = (title, body, answer, id) => {
+    store.dispatch({
+      type: UPDATE_QUESTION,
+      payload: { title: title, body: body, answer:answer, id: id }
+    });
+  };
 
   render() {
     let listPosts = this.props.posts.filter(post => {
@@ -44,6 +52,7 @@ class QuestionList extends React.Component {
                 <Button
                   color="blue"
                   inverted
+                  onClick={this.handleUpdate.bind(this, e.title, e.body, e.answer, e.id)}
                 >
                   Edit
                 </Button>
