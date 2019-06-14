@@ -14,12 +14,12 @@ class Sidebar extends React.Component {
           <List>
             <List.Item>
               <List.Content>
-                <Link to="/">Home</Link>
+                <Link to="/">Question</Link>
               </List.Content>
             </List.Item>
             <List.Item>
               <List.Content>
-                <Link to="/add">Add Post</Link>
+                <Link to="/add">Add Question</Link>
               </List.Content>
             </List.Item>
           </List>
