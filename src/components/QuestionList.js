@@ -2,7 +2,7 @@ import React from 'react';
 import {connect} from "react-redux";
 import {Link} from "react-router-dom";
 import store from "../store";
-import { UPDATE_QUESTION,DELETE_QUESTION } from "../actions/index";
+import { UPDATE_QUESTION, DELETE_QUESTION } from "../actions/index";
 
 import {Grid, Card, Header, Divider, Button, Modal, Icon} from "semantic-ui-react";
 
