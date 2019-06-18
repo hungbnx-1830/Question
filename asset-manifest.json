@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/hungbnx-1830/questions-gh/static/css/main.ce52f6be.chunk.css",
-    "main.js": "/hungbnx-1830/questions-gh/static/js/main.30f8ed19.chunk.js",
-    "main.js.map": "/hungbnx-1830/questions-gh/static/js/main.30f8ed19.chunk.js.map",
-    "runtime~main.js": "/hungbnx-1830/questions-gh/static/js/runtime~main.d8800eb3.js",
-    "runtime~main.js.map": "/hungbnx-1830/questions-gh/static/js/runtime~main.d8800eb3.js.map",
-    "static/css/2.25e6bdad.chunk.css": "/hungbnx-1830/questions-gh/static/css/2.25e6bdad.chunk.css",
-    "static/js/2.96d454b6.chunk.js": "/hungbnx-1830/questions-gh/static/js/2.96d454b6.chunk.js",
-    "static/js/2.96d454b6.chunk.js.map": "/hungbnx-1830/questions-gh/static/js/2.96d454b6.chunk.js.map",
-    "index.html": "/hungbnx-1830/questions-gh/index.html",
-    "precache-manifest.a054ebfe2b51f408435aefad8c3daa97.js": "/hungbnx-1830/questions-gh/precache-manifest.a054ebfe2b51f408435aefad8c3daa97.js",
-    "service-worker.js": "/hungbnx-1830/questions-gh/service-worker.js",
-    "static/css/2.25e6bdad.chunk.css.map": "/hungbnx-1830/questions-gh/static/css/2.25e6bdad.chunk.css.map",
-    "static/css/main.ce52f6be.chunk.css.map": "/hungbnx-1830/questions-gh/static/css/main.ce52f6be.chunk.css.map",
-    "static/media/semantic.min.css": "/hungbnx-1830/questions-gh/static/media/outline-icons.ef60a4f6.woff"
+    "main.css": "/Question/static/css/main.ce52f6be.chunk.css",
+    "main.js": "/Question/static/js/main.30f8ed19.chunk.js",
+    "main.js.map": "/Question/static/js/main.30f8ed19.chunk.js.map",
+    "runtime~main.js": "/Question/static/js/runtime~main.5803b187.js",
+    "runtime~main.js.map": "/Question/static/js/runtime~main.5803b187.js.map",
+    "static/css/2.5c801eec.chunk.css": "/Question/static/css/2.5c801eec.chunk.css",
+    "static/js/2.96d454b6.chunk.js": "/Question/static/js/2.96d454b6.chunk.js",
+    "static/js/2.96d454b6.chunk.js.map": "/Question/static/js/2.96d454b6.chunk.js.map",
+    "index.html": "/Question/index.html",
+    "precache-manifest.8c853198365b501dabdba2cf8989c217.js": "/Question/precache-manifest.8c853198365b501dabdba2cf8989c217.js",
+    "service-worker.js": "/Question/service-worker.js",
+    "static/css/2.5c801eec.chunk.css.map": "/Question/static/css/2.5c801eec.chunk.css.map",
+    "static/css/main.ce52f6be.chunk.css.map": "/Question/static/css/main.ce52f6be.chunk.css.map",
+    "static/media/semantic.min.css": "/Question/static/media/outline-icons.ef60a4f6.woff"
   }
 }
