@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "edbdf7125e7d7b123d76b597f61e383f",
+    "revision": "6f4946d8355e870c5cc35c756926e4e4",
     "url": "/hungbnx-1830/Question/index.html"
   },
   {
-    "revision": "15d2e444a0852b3c8922",
+    "revision": "9603f789d981b5027e4e",
     "url": "/hungbnx-1830/Question/static/css/2.0d0b390d.chunk.css"
   },
   {
-    "revision": "21c1f225e007c2cb5935",
+    "revision": "f9e0287e47a9467ef224",
     "url": "/hungbnx-1830/Question/static/css/main.ce52f6be.chunk.css"
   },
   {
-    "revision": "15d2e444a0852b3c8922",
-    "url": "/hungbnx-1830/Question/static/js/2.96d454b6.chunk.js"
+    "revision": "9603f789d981b5027e4e",
+    "url": "/hungbnx-1830/Question/static/js/2.f09e0961.chunk.js"
   },
   {
-    "revision": "21c1f225e007c2cb5935",
-    "url": "/hungbnx-1830/Question/static/js/main.30f8ed19.chunk.js"
+    "revision": "f9e0287e47a9467ef224",
+    "url": "/hungbnx-1830/Question/static/js/main.115b95b2.chunk.js"
   },
   {
     "revision": "4fb970e0fabbc54045a1",
