@@ -2,7 +2,7 @@ import React from 'react';
 import {connect} from "react-redux";
 import {Link} from "react-router-dom";
 import store from "../store";
-import { UPDATE_QUESTION } from "../actions/index";
+import { UPDATE_QUESTION,DELETE_QUESTION } from "../actions/index";
 
 import {Grid, Card, Header, Divider, Button, Modal, Icon} from "semantic-ui-react";
 
@@ -15,6 +15,10 @@ class QuestionList extends React.Component {
       type: UPDATE_QUESTION,
       payload: { title: title, body: body, answer:answer, id: id }
     });
+  };
+
+  handleDelete = id => {
+    store.dispatch({ type: DELETE_QUESTION, payload: id });
   };
 
   render() {
@@ -33,16 +37,12 @@ class QuestionList extends React.Component {
               <Divider horizontal>Answer</Divider>
               <Card.Description>{e.answer}</Card.Description>
               <Divider hidden/>
-              <Modal trigger={<Button color='red' icon='trash' content='Delete'/>} basic size='small'>
+              <Modal trigger={<Button color='red' icon='trash' content='Delete'/>} closeIcon basic={false} size='small'>
                 <Header icon='archive' content='Bạn có muốn xoá câu hỏi này không !'/>
                 <Modal.Actions>
-                  <Button basic color='red'
-                          inverted
-                  >
-                    <Icon name='remove'/> No
-                  </Button>
                   <Button color='green'
                           inverted
+                          onClick={this.handleDelete.bind(this, e.id)}
                   >
                     <Icon name='checkmark'/> Yes
                   </Button>

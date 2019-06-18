@@ -2,7 +2,8 @@ import {
   FETCH_POSTS,
   ADD_QUESTION,
   UPDATE_QUESTION,
-  UPDATED_QUESTION
+  UPDATED_QUESTION,
+  DELETE_QUESTION
 
 } from "../actions/index";
 
@@ -32,6 +33,11 @@ export function reducer(state = initialState, action) {
         posts: state.posts.map(e =>
           e.id === action.payload.id ? (e = action.payload) : e
         )
+      };
+    case DELETE_QUESTION:
+      return {
+        ...state,
+        posts: state.posts.filter(post => post.id !== action.payload)
       };
     default:
       return state;
