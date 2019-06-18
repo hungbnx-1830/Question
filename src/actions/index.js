@@ -2,6 +2,7 @@ export const FETCH_POSTS = "FETCH_POSTS";
 export const ADD_QUESTION = "ADD_QUESTION";
 export const UPDATE_QUESTION = "UPDATE_QUESTION";
 export const UPDATED_QUESTION = "UPDATED_QUESTION";
+export const DELETE_QUESTION = "DELETE_QUESTION";
 
 export function fetchPosts(payload) {
   return { type: FETCH_POSTS, payload };
@@ -17,4 +18,8 @@ export function updQuestion(payload) {
 
 export function upedQuestion(payload) {
   return { type: UPDATED_QUESTION, payload };
+}
+
+export function deleteQuestion(payload) {
+  return { type: DELETE_QUESTION, payload };
 }
