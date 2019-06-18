@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/hungbnx-1830/Question/static/css/main.ce52f6be.chunk.css",
-    "main.js": "/hungbnx-1830/Question/static/js/main.115b95b2.chunk.js",
-    "main.js.map": "/hungbnx-1830/Question/static/js/main.115b95b2.chunk.js.map",
-    "runtime~main.js": "/hungbnx-1830/Question/static/js/runtime~main.a0bd1958.js",
-    "runtime~main.js.map": "/hungbnx-1830/Question/static/js/runtime~main.a0bd1958.js.map",
-    "static/css/2.0d0b390d.chunk.css": "/hungbnx-1830/Question/static/css/2.0d0b390d.chunk.css",
-    "static/js/2.f09e0961.chunk.js": "/hungbnx-1830/Question/static/js/2.f09e0961.chunk.js",
-    "static/js/2.f09e0961.chunk.js.map": "/hungbnx-1830/Question/static/js/2.f09e0961.chunk.js.map",
-    "index.html": "/hungbnx-1830/Question/index.html",
-    "precache-manifest.c5c4f2b82f269333b02668d763f402cc.js": "/hungbnx-1830/Question/precache-manifest.c5c4f2b82f269333b02668d763f402cc.js",
-    "service-worker.js": "/hungbnx-1830/Question/service-worker.js",
-    "static/css/2.0d0b390d.chunk.css.map": "/hungbnx-1830/Question/static/css/2.0d0b390d.chunk.css.map",
-    "static/css/main.ce52f6be.chunk.css.map": "/hungbnx-1830/Question/static/css/main.ce52f6be.chunk.css.map",
-    "static/media/semantic.min.css": "/hungbnx-1830/Question/static/media/outline-icons.ef60a4f6.woff"
+    "main.css": "/Question/static/css/main.ce52f6be.chunk.css",
+    "main.js": "/Question/static/js/main.115b95b2.chunk.js",
+    "main.js.map": "/Question/static/js/main.115b95b2.chunk.js.map",
+    "runtime~main.js": "/Question/static/js/runtime~main.5803b187.js",
+    "runtime~main.js.map": "/Question/static/js/runtime~main.5803b187.js.map",
+    "static/css/2.5c801eec.chunk.css": "/Question/static/css/2.5c801eec.chunk.css",
+    "static/js/2.f09e0961.chunk.js": "/Question/static/js/2.f09e0961.chunk.js",
+    "static/js/2.f09e0961.chunk.js.map": "/Question/static/js/2.f09e0961.chunk.js.map",
+    "index.html": "/Question/index.html",
+    "precache-manifest.df3176dbfa8e348f76fdd2c5c047b803.js": "/Question/precache-manifest.df3176dbfa8e348f76fdd2c5c047b803.js",
+    "service-worker.js": "/Question/service-worker.js",
+    "static/css/2.5c801eec.chunk.css.map": "/Question/static/css/2.5c801eec.chunk.css.map",
+    "static/css/main.ce52f6be.chunk.css.map": "/Question/static/css/main.ce52f6be.chunk.css.map",
+    "static/media/semantic.min.css": "/Question/static/media/outline-icons.ef60a4f6.woff"
   }
 }
